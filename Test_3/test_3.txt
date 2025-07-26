@@ -1,0 +1,445 @@
+--------- beginning of crash
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: FATAL EXCEPTION: GalleryScanSyncThread
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: Process: com.coloros.gallery3d, PID: 15814
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "/data/user/0/com.coloros.gallery3d/files/component/VideoLabelScanSource/libst_video_sdk.so" not found
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at java.lang.Runtime.load0(Runtime.java:938)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at java.lang.System.load(System.java:1631)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.tags.w.b(VideoLabelClassifyEngine.java:79)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.tags.w.a(VideoLabelClassifyEngine.java:64)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.a(LabelScanner.java:233)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.c(LabelScanner.java:131)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.a(LabelScanner.java:521)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.runScanTask(GalleryScanSyncTaskManager.java:314)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.handleScanMsg(GalleryScanSyncTaskManager.java:346)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.access$000(GalleryScanSyncTaskManager.java:61)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b$b.a(GalleryScanSyncTaskManager.java:413)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b$b.a(GalleryScanSyncTaskManager.java:395)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at com.oppo.gallery3d.scan.c.handleMessage(StaticHandler.java:45)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:237)
+07-25 16:32:45.411 15814 15905 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: FATAL EXCEPTION: GalleryScanSyncThread
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: Process: com.coloros.gallery3d, PID: 25161
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "/data/user/0/com.coloros.gallery3d/files/component/VideoLabelScanSource/libst_video_sdk.so" not found
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at java.lang.Runtime.load0(Runtime.java:938)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at java.lang.System.load(System.java:1631)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.tags.w.b(VideoLabelClassifyEngine.java:79)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.tags.w.a(VideoLabelClassifyEngine.java:64)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.a(LabelScanner.java:233)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.c(LabelScanner.java:131)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.tags.r.a(LabelScanner.java:521)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.runScanTask(GalleryScanSyncTaskManager.java:314)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.handleScanMsg(GalleryScanSyncTaskManager.java:346)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b.access$000(GalleryScanSyncTaskManager.java:61)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b$b.a(GalleryScanSyncTaskManager.java:413)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.b$b.a(GalleryScanSyncTaskManager.java:395)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at com.oppo.gallery3d.scan.c.handleMessage(StaticHandler.java:45)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:237)
+07-26 13:02:20.344 25161 25204 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+--------- beginning of system
+07-26 19:30:10.901 24512 24558 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+07-26 19:31:46.382  1537  1572 E AppIdleHistory: Error writing app idle file for user 0
+07-26 19:32:25.111  1537  1794 E OppoNwPowerStateManager: SendToKernel failed, mNlSock=null.
+07-26 19:42:33.263  1537  1585 E OppoBatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:42:33.263  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:43:33.987  1537  1585 E OppoBatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:43:33.987  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:43:34.159  1537  1794 E OppoNwPowerStateManager: SendToKernel failed, mNlSock=null.
+07-26 19:43:34.219  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:43:34.412  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:43:37.052  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: No such file or directory
+07-26 19:44:01.386  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:44:01.430  1537  1585 E OppoBatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:44:01.452  1537  1584 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+07-26 19:44:02.656  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: Connection refused
+07-26 19:44:04.658  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: No such file or directory
+07-26 19:44:06.660  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: No such file or directory
+07-26 19:44:08.662  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: No such file or directory
+07-26 19:44:10.664  1537 23342 E AdbDebuggingManager: Caught an exception opening the socket: java.io.IOException: No such file or directory
+07-26 19:45:12.100 26501 26540 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+--------- beginning of main
+07-26 19:49:17.856  1537  2153 E Process : get_ion_cache_memory: Unable to open /d/ion/system_stats
+07-26 19:49:17.991 26668 26668 E mcssdk---: MCS-->intent is null , please check param of parseIntent()
+07-26 19:49:18.049   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:19.050   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:20.050   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:21.051   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:22.052   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:23.031  1537  1794 E OppoNwPowerStateManager: SendToKernel failed, mNlSock=null.
+07-26 19:49:23.052   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:24.053   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:25.054   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:26.054   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:27.055   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:28.055   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:29.056   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:30.057   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:31.057   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:32.058   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:33.058   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:34.059   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:35.060   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:36.061   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:37.061   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:38.062   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:39.062   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:40.063   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:41.064   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:42.064   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:43.065   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:44.065   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:45.066   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:46.067   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:47.067   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:48.068   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:49.069   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:50.069   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:51.070   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:52.070   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:53.071   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:54.072   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:55.073   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:56.073   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:57.074   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:58.074   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:49:59.075   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:00.076   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:01.076   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:02.077   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:03.078   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:04.078   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:05.079   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:06.080   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:07.081   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:08.081   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:09.082   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:10.082   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:11.083   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:12.084   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:13.085   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:14.085   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:15.086   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:16.087   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:17.087   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:18.088   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:19.089   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:20.089   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:21.090   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:22.091   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:23.091   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:24.092   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:25.092   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:26.093   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:27.094   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:28.094   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:29.095   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:30.096   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:31.096   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:32.097   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:33.098   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:34.098   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:35.099   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:36.100   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:37.100   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:38.101   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:39.102   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:40.102   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:41.103   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:42.104   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:43.104   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:44.105   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:45.106   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:46.106   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:47.107   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:48.108   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:49.108   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:50.109   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:51.109   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:52.110   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:53.111   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:54.111   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:55.112   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:56.113   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:57.113   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:58.114   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:50:59.114   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:00.115   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:01.116   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:02.117   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:03.117   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:04.118   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:05.118   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:06.119   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:07.120   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:08.121   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:09.121   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:10.122   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:11.122   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:12.123   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:13.124   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:14.125   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:15.125   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:16.126   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:17.126   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:18.127   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:19.128   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:20.129   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:21.129   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:22.130   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:23.131   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:24.131   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:25.132   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:26.133   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:26.955 21495 27028 E memtrack: Couldn't load memtrack module
+07-26 19:51:27.133   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:28.134   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:29.135   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:30.135   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:31.136   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:32.137   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:33.137   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:34.138   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:35.139   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:36.139   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:37.140   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:38.140   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:39.141   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:40.142   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:41.142   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:42.143   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:43.144   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:44.145   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:45.145   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:46.146   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:47.147   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:48.148   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:49.148   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:50.149   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:51.150   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:52.151   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:53.151   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:54.152   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:55.153   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:56.153   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:57.154   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:58.155   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:51:59.156   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:00.156   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:01.157   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:02.158   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:03.158   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:04.159   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:05.160   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:06.160   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:07.161   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:08.162   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:09.162   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:10.163   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:11.164   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:12.165   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:13.165   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:14.166   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:15.166   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:16.167   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:17.168   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:18.168   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:18.594  1537  1572 E AppIdleHistory: Error writing app idle file for user 0
+07-26 19:52:19.169   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:20.170   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:21.170   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:22.171   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:23.172   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:24.172   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:25.173   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:26.174   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:27.174   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:27.461  1537  2153 E Process : get_ion_cache_memory: Unable to open /d/ion/system_stats
+07-26 19:52:27.698  1537  4603 E Process : get_ion_cache_memory: Unable to open /d/ion/system_stats
+07-26 19:52:28.175   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:29.175   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:30.176   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:31.177   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:32.177   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:33.178   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:34.179   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:35.179   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:36.180   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:37.181   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:38.181   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:39.182   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:40.183   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:41.183   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:42.184   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:43.185   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:44.185   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:45.186   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:46.186   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:47.187   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:48.188   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:49.188   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:50.189   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:51.190   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:52.190   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:53.191   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:54.192   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:55.192   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:56.193   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:57.194   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:58.194   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:52:59.195   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:00.195   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:01.196   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:02.197   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:03.198   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:04.198   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:05.199   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:06.199   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:07.200   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:08.201   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:09.201   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:10.202   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:11.202   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:12.203   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:13.204   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:14.204   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:15.205   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:16.206   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:17.206   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:18.207   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:19.208   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:20.208   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:21.209   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:22.209   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:23.210   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:24.211   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:25.211   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:26.212   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:27.213   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:28.213   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:29.214   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:30.215   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:31.215   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:32.216   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:33.217   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:34.217   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:35.218   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:36.218   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:37.219   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:38.220   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:39.220   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:40.221   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:41.222   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:42.222   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:43.223   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:44.224   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:45.224   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:46.225   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:47.226   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:48.226   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:49.227   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:50.227   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:51.228   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:52.229   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:53.229   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:54.230   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:55.231   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:56.231   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:57.232   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:58.233   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:53:59.233   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:00.234   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:01.235   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:02.235   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:03.236   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:04.237   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:05.237   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:06.238   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:07.239   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:08.239   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:09.240   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:10.241   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:11.241   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:12.242   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:13.242   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:14.243   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:15.244   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:16.245   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:17.245   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:18.246   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:18.333 26915 27065 E SQLiteLog: (1) no such function: _NATIVE_OPPO_PY_SEARCH
+07-26 19:54:18.580 26174 27075 E memtrack: Couldn't load memtrack module
+07-26 19:54:19.246   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:20.247   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:21.248   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:22.248   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:23.249   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:24.250   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:25.250   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:26.251   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:27.252   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:28.252   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:29.253   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:30.254   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:31.254   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:32.255   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:33.256   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:34.256   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:35.257   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:36.258   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:37.258   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:38.259   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:39.260   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:40.260   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:41.261   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:42.262   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:43.262   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:44.263   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:45.263   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:46.264   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:47.265   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:48.266   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:49.266   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:50.267   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:51.267   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:52.268   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:53.269   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:54.269   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:55.270   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:56.271   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:57.271   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:58.272   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:54:59.273   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:00.273   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:01.274   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:02.275   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:03.275   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:04.276   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:05.277   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:06.277   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:07.278   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:08.279   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:09.279   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:10.280   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:11.281   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:12.281   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:13.282   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:14.282   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:15.283   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:16.284   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:17.285   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:18.285   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:19.286   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:20.287   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:21.287   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:22.288   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:23.289   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:24.289   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:25.290   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:26.290   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:27.291   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:28.292   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:29.292   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:30.293   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:31.294   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
+07-26 19:55:32.294   907 12672 E lsc_nvram: [do_mkdir] fail to mkdir [/sdcard/shading_otp]: 13[Permission denied] (do_mkdir){#65:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_40/lsc_mgr/LscUtil.h}
